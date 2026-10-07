@@ -10,16 +10,29 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
-
+        String rover = "Sting";
+        int battery = 87;
+        double speed = 1.5;
+        char mode = 'C';
+        boolean lightson = true;
+        System.out.println("Rover" + rover + " has " + battery +"% battery");
+        System.out.println("Speed:" + speed + "m/s, mode " + mode +", lights on: " + lightson);
+        System.out.println("After driving, battery is " + 75 +"%");
+        /* Rover Sting has 87% battery.
+        Speed: 1.5 m/s, mode C, lights on: true
+        After driving, battery is 75%.
+        */
 
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next line.
-        /*
-        int fuel = 87.5;
-        char grade = "C";
-        System.out.println(Battery);
-        */
+        // int needs to be float or double
+        float fuel = 87.5f;
+        // should be single quotes and not double qutoes
+        char grade = 'C';
+        // battery isnt defined using a capital b on a lowercase
+        System.out.println(battery);
+
     }
 }
