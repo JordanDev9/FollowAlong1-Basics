@@ -12,7 +12,13 @@ package part01;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// this names the class
 public class Main {
-
+    // A psvm is needed to run any java program
+    public static void main(String[] args){
+        // \t tabs the strings and \" adds a quote in string format then i love pizza is printed whith another \" which prints the quote and \n which means new line
+        System.out.println("\t\"I love pizza\"\n");
+        // this prints exactly what is inside the quotes
+        System.out.println("It's really good");
+    }
 }

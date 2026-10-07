@@ -8,12 +8,14 @@ package part00;
 // A test in src/test/java/part00/ChallengeTest.java calls the method below and checks
 // what it returns. Right now it returns "" — an empty String — so the test is red.
 // Your job: change the one line marked YOUR CODE so the test goes green.
-
+//this names the class
 public class Challenge {
 
     // greeting("Jordan") should return "Hello, Jordan!"
     // greeting("Sam")    should return "Hello, Sam!"
+    // this calls on the object greeting which takes in string name
     public static String greeting(String name) {
+        // this returns the string Hello + name which is the name created by the objecct and a string !
         return "Hello," + name + "!";   // YOUR CODE — replace "" with the right answer
     }
 }

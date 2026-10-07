@@ -10,6 +10,17 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we type the rover status report together, here.
+        /*
+        Anywhere there is a \t that means tab so it will tabs the proceed with the rest of the line of code
+        Anywhere there is a \" it will print out a " inside of the string
+        Anywhere there is a \\ it will also print out a \ insdie of the string
+        Anything else because the quotes on the outside will be printed alongside its specific commands such as \t, \" or \\
+         */
+        System.out.println("=== Rover Status ===");
+        System.out.println("Name:\t\t  \"Sting\"");
+        System.out.println("Battery: \t\t 87%");
+        System.out.println("Log file:  \t\t C:\\rover\\log.txt");
+        System.out.println("Status: \t\t All systems \"go\"");
 
 
 
