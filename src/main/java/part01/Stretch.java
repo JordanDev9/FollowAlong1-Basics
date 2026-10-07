@@ -9,5 +9,38 @@ package part01;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    public static void main(String[] args) {
+    /*
+    This code will output nothing because there is not psvm but if there was it would output
+    AB
+    C
+        D\
+    "E"
+    G
+
+     */
+        /*
+        System.out.print("A");
+        System.out.println("B");
+        System.out.print("C\n");
+        System.out.println("\tD\\");
+        System.out.println("\"E\"");
+        //System.out.println("F");
+        System.out.print("G");
+        System.out.println();
+         */
+        System.out.println("Jordan Devonish");
+        System.out.println("Computer Science");
+        System.out.println("Class of 2030");
+        System.out.print("Day \t Class \t\t\tTime\n");
+        System.out.print("Mon \t CSCI-121 \t\t2:00 PM\n");
+        System.out.print("Tue \t CSCI-121 \t\t3:00 PM\n");
+        System.out.print("My teacher said \"type it yourself.\"\n");
+        System.out.print("My Code lives in C:\\users\\jorbo\\dev\n");
+
+
+
+
+    }
 
 }
