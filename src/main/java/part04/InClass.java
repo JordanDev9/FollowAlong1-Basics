@@ -10,16 +10,27 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we do the pizza party math together, here.
-
+        int friends = 7;
+        int slicePer = 3;
+        int PizzaTotal = 8;
+        int slicesNeeded = friends * slicePer;
+        int wholePizzas = slicesNeeded / PizzaTotal;
+        int leftover = wholePizzas % slicesNeeded;
+        double exactPizza = ((double)slicesNeeded / PizzaTotal);
+        friends = friends + 1;
+        System.out.println("A friend shows up. Friends: " + friends);
+        System.out.println("Slices Needed: " + slicesNeeded + " Whole pizzas: " + wholePizzas + " Slices left over: " + leftover + " Exact pizzas: " + exactPizza);
 
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error (or the wrong output). Fix it. Run it. Then do the next line.
-        /*
-        int share = 10 / 4.0;
-        System.out.println("Total: " + 5 + 3);
-        System.out.println(totalSlices / (friends - friends));
-        */
+        // 4.0 isnt a int because of the decimal
+        int share = 10 / 4;
+        // need to isolate the addition or else 5 and 3 will be turned into string before they are added
+        System.out.println("Total: " + (5 + 3));
+        // totalSlices is not defined and your also dividing by zero
+        System.out.println(slicesNeeded / (friends - friends));
+
     }
 }
