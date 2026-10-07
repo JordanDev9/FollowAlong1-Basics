@@ -9,5 +9,12 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+        System.out.print("-----------\n");
+        System.out.print(" ~~ \t~~\n   \\\t\\\n");
+        System.out.print("  0 \t0\n");
+        System.out.print("\t ^\n  _______\n");
+        System.out.println("Hello, im a \"bot\"");
+    }
 
 }
