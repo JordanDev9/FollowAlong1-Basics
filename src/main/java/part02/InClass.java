@@ -10,10 +10,15 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
+        // creates a string called rover that hold the value of "sting" which is a string
         String rover = "Sting";
+        //creates a int caleld battery that holds the value of 87 which is a int
         int battery = 87;
+        // creates a double called speed that holds the value 1.5 which is a double
         double speed = 1.5;
+        // creates a char caleld mode that holds the value 'C' which is a char
         char mode = 'C';
+        // create a boolean variable called lightson and hold the value of true boolean can only hold the value of true or false
         boolean lightson = true;
         System.out.println("Rover" + rover + " has " + battery +"% battery");
         System.out.println("Speed:" + speed + "m/s, mode " + mode +", lights on: " + lightson);
