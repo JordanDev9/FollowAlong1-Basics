@@ -18,16 +18,28 @@ import java.util.Scanner;
 
 public class UserInput {
     public static void main(String[] args) {
+        // this line creates a scanner and turns it on?
         Scanner scanner = new Scanner(System.in);
+        // this line ask for user input what is your name
         System.out.println("What is your name?");
+        // this line takes the user input and assigns it to the varibale name
         String name = scanner.nextLine();
+        // this line take string Hello and adds it to name creating Hello whatever the name input is
         System.out.println("Hello " + name);
+        // this line ask for a user input how old are you?
         System.out.println("How old are you?");
+        // this line take the int and assigns it to the variable age
         int age = scanner.nextInt();
+        // this line prevents the scanner from not calling the other inputs
         scanner.nextLine();
+        // the line prints string you are variable age and sting years old
         System.out.println("You are " + age + " years old");
+        // this line of code ask for a user input what is your favorite food
         System.out.println("What is your favorite food?");
+        // this line takes the user input and assigns it to the variable food
         String food = scanner.nextLine();
+        // this line prints string you like and add the variable food which prints the value of the variable which would be whatever the user input is
         System.out.println("You like " + food);
+
     }
 }

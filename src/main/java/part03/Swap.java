@@ -16,12 +16,19 @@ package part03;
 
 public class Swap {
     public static void main(String[] args) {
+        // this assigns x to the string value of water
         String x = "water";
+        // this assigns y to the string value of kool-aid
         String y = "Kool-Aid";
+        // this creates a string called temp but it has not value yet
         String temp;
+        // this assigns the value of temp to x
         temp = x;
+        // this assigns the value of x to the value of y
         x = y;
+        // this assigns the value of y to temp(which is the value of x before x became y)
         y = temp;
+        // these two lines print out strings x: and y: then because the variables are not in quotes it prints out the value that they are holding
         System.out.println("x: " + x);
         System.out.println("y: " + y);
     }
