@@ -10,7 +10,9 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we do the pizza party math together, here.
+        // this line assigns friends to the int value of 7
         int friends = 7;
+        // this line assigns slicePer to the in value of 3
         int slicePer = 3;
         int PizzaTotal = 8;
         int slicesNeeded = friends * slicePer;
