@@ -1,5 +1,6 @@
 package part05;
-
+import java.util.Scanner;
+import java.util.Random;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3518s
 //        Math class starts at about 58:38 — stop at about 61:29, "here's a project"
 // Guide: GUIDE.md in this folder, steps 1–6
@@ -15,5 +16,42 @@ package part05;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class MathMethods {
-
+    public static void main(String[] args) {
+//        double x = 3.14;
+//        double y = -10;
+//        double a = 42;
+//        double b = 4;
+//        double z = Math.min(x, y);
+//        System.out.println(z);
+//        double Z = Math.max(x, y);
+//        System.out.println(Z);
+//        a = Math.abs(a);
+//        System.out.println(a);
+//        double B = Math.sqrt(b);
+//        System.out.println(B);
+//        z = Math.round(x);
+//        System.out.println(z);
+//        z = Math.ceil(x);
+//        System.out.println(z);
+//        z = Math.floor(x);
+//        System.out.println(z);
+        double x;
+        double y;
+        double z;
+        Scanner scanner = new Scanner(System.in);
+        //System.out.println("Enter side x: ");
+        //x = scanner.nextDouble();
+        //System.out.println("Enter side y: ");
+        //y = scanner.nextDouble();
+        //z = Math.sqrt((x * x) + (y * y));
+        //System.out.println("The hypotenuse is: " + z);
+        //scanner.close();
+        Random random = new Random();
+        int X = random.nextInt(6)+1;
+        System.out.println(X);
+        double Y = random.nextDouble();
+        System.out.println(Y);
+        boolean Z = random.nextBoolean();
+        System.out.println(Z);
+    }
 }
