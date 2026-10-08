@@ -1,5 +1,6 @@
 package part05;
 import java.util.Random;
+import java.util.Scanner;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3546s
 //        rewatch 59:06–61:29 for the Math methods, 64:54–68:28 for Random
 // Guide: GUIDE.md in this folder, steps 2–6 and 12–16
@@ -23,6 +24,23 @@ public class Stretch {
         Random random = new Random();
         int x = random.nextInt(6)+1;
         System.out.println("You rolled a " + x );
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the radius: ");
+        int radius = scanner.nextInt();
+        double area = 3.14 * Math.pow(radius, 2);
+        double areaR = Math.round(area);
+
+        System.out.println("Area: " + area);
+        System.out.println("Area Rounded: " + areaR);
+        int x1 = 1;
+        int y1 = 2;
+        int x2 = 4;
+        int y2 = 6;
+        int PD = ((4-1)*(4-1) + (6-2)*(6-2));
+        double dis = Math.sqrt(PD);
+        System.out.println("Distance: " + dis);
+        
+
     }
 
 }
