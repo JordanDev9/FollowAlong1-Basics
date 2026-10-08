@@ -15,6 +15,17 @@ package part05;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
 
+import java.util.Random;
+
 public class RandomNumbers {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int X = random.nextInt(6)+1;
+        System.out.println(X);
+        double Y = random.nextDouble();
+        System.out.println(Y);
+        boolean Z = random.nextBoolean();
+        System.out.println(Z);
+    }
 
 }

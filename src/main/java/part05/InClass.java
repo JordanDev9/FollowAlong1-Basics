@@ -1,5 +1,5 @@
 package part05;
-
+import java.util.Random;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3518s
 //        rewatch 58:38–68:28 for the Math class and Random
 //
@@ -10,6 +10,8 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we type the rover trip report together, here.
+
+
 
 
 
