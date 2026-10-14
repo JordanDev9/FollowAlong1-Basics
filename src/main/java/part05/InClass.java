@@ -8,6 +8,9 @@ import java.util.Random;
 
 public class InClass {
     public static void main(String[] args) {
+        Random random = new Random();
+        int Distance = randon.nextInt(5+1);
+        int
 
         // STEP 1 — we type the rover trip report together, here.
 
